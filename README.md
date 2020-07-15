@@ -6,6 +6,18 @@
 Every example is a spring-boot application that starts Ignite cluster with one node. Every example shows one (or more) of the [cluster-boost](https://github.com/technologicgroup/cluster-boost) library features.
 
 ## [Example 1](https://github.com/technologicgroup/cluster-boost-examples/tree/master/example-01)
+### Structure
+```
+.
+├--domain
+   ├--TestAccessor.java
+   ├--TestKey.java
+   ├--TestRepository.java
+   ├--TestValue.java   
+├--Application.java
+├--ApplicationConfig.java
+├--ClusterReadyConsumer.java
+```
 ### Features
 - Self-registered repositories
 - Cluster ready event
