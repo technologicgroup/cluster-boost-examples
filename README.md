@@ -1,6 +1,6 @@
 # [cluster-boost](https://github.com/technologicgroup/cluster-boost) library examples
 
-## ver. 1.1
+## Version 1.1
 
 ## Overview
 Every example is a spring-boot application that starts Ignite cluster with one node. Every example shows one (or more) of the [cluster-boost](https://github.com/technologicgroup/cluster-boost) library features.
